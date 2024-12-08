@@ -12,10 +12,10 @@ import random
 
 # Configurations
 FEED_URL = "http://rss.cnn.com/rss/edition_world.rss"  # CNN RSS feed
-BITLY_API_KEY = "c2752489dd14abe6ac23b9a93c4b878f792f2527"  # Replace with your Bitly API key
+BITLY_API_KEY = "c2752489dd14abe6ac23b9a93c4b878f792f2527"  #Bitly API key
 ACCESS_TOKEN = "EAA2wPKwMRSEBO7ldCFAyyAYRHcFBR37aVsRdvrbmJSS2GashBdYhRuYlSTNL2shNbivBMw3oy6nZBsZBWBHktBAZCZCTzurLmXXIDrXpnSrRAXT6ZBixeu9nu8ihZBXxgGVZA9OQoZBM94bn3SpBiLfZCMY2kHCZAtlFYbdgYp25u7ZBZAZBuK2GhEZAVT85bg0Y2ZBJx0G"  # Replace with your Instagram Access Token
-USER_ID = "17841471034402887"  # Your Instagram Account ID
-IMGUR_CLIENT_ID = "202495689ba3db5"  # Replace with your Imgur client ID
+USER_ID = "17841471034402887"  #Instagram Account ID
+IMGUR_CLIENT_ID = "202495689ba3db5"  # Imgur client ID
 
 # Logging configuration
 logging.basicConfig(

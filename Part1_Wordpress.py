@@ -390,7 +390,7 @@ if __name__ == "__main__":
     client_id = "110048"
     client_secret = "WZmO0zHvfIaU8q69kvf2ImQ035hnPlTUWQQMxhQwaQ91WATcxPxx5LEz6U5i7Han"
     feed_url = "http://rss.cnn.com/rss/edition_world.rss"  # Example RSS feed
-    bitly_api_key = None  # Optional, set to your Bitly API key if you want URL shortening
+    bitly_api_key = "c2752489dd14abe6ac23b9a93c4b878f792f2527"  
     
     publisher = WordPressRSSPublisher(site_url, client_id, client_secret, feed_url, bitly_api_key)
     
