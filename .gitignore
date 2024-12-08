@@ -1,0 +1,36 @@
+# Ignore the virtual environment directory
+venv/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore environment variables file
+.env
+
+# Ignore .idea folder (for JetBrains IDEs)
+.idea/
+
+# Ignore VS Code settings folder
+.vscode/
+
+# Ignore pipenv and poetry files
+Pipfile.lock
+poetry.lock
+
+# Ignore coverage reports
+.coverage
+*.coveragerc
+
+# Ignore logs and temporary files
+*.log
+*.bak
+*.swp
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
