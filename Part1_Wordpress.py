@@ -359,9 +359,19 @@ class WordPressRSSPublisher:
             new_entries = [entry for entry in feed.entries if entry.link not in self.processed_entries]
 
             for entry in new_entries:
+                print(entry)
+                
                 title = entry.title
-                summary = entry.summary if 'summary' in entry else entry.description
+                
+                summary = entry.summary if 'summary' in entry else entry.description if 'description' in entry else None
+                
+                # If neither summary nor description exists, skip this entry
+                if not summary:
+                    continue
                 url = entry.link
+                print(f"Title: {title}")
+                print(f"Summary: {summary}")
+                print(f"URL: {url}")
                 short_url = self.shorten_url(url)
                 content = f"<p>{summary}</p><p><a href='{short_url}'>Read more</a></p>"
                 image = self.generate_image(title, summary)
