@@ -1,0 +1,55 @@
+# External Libraries (requires installation)
+
+# HTTP library to make requests to external services (e.g., WordPress, Bitly)
+requests
+
+# RSS and Atom feed parsing library to process and extract content from feeds
+feedparser
+
+# URL shortener library to generate short links (e.g., via Bitly or TinyURL)
+pyshorteners
+
+# Imaging library to create, edit, and process images (used for generating post visuals)
+Pillow
+
+
+# Standard Libraries (No installation required, comes with Python)
+
+# os: Provides functions to interact with the operating system (e.g., file and environment variable management)
+# os
+
+# webbrowser: Opens a web browser to display URLs (e.g., for OAuth authorization)
+# webbrowser
+
+# urllib.parse: Contains functions for parsing and building URLs (e.g., for encoding URL parameters)
+# from urllib.parse import urlencode
+
+# http.server: Provides a simple HTTP server for handling OAuth callback requests (included by default in Python)
+# from http.server import HTTPServer, BaseHTTPRequestHandler
+
+# urllib.parse: Used to parse query strings and URL components for OAuth and other operations
+# from urllib.parse import parse_qs, urlparse
+
+# threading: Enables parallel execution by creating and managing threads (useful for asynchronous tasks)
+# import threading
+
+# pickle: Serializes Python objects into byte streams (used for saving and loading data like processed entries)
+# import pickle
+
+# time: Provides time-related functions (e.g., for adding delays between tasks)
+# import time
+
+# logging: Offers a flexible framework for logging events, errors, and debugging information
+# import logging
+
+# Image manipulation tools from Pillow for drawing, adding text, and modifying images
+# from PIL import Image, ImageDraw, ImageFont
+
+# io.BytesIO: Used to create in-memory byte streams, necessary for image processing and manipulation
+# from io import BytesIO
+
+# textwrap: Formats text into wrapped lines to fit properly within an image or UI
+# import textwrap
+
+# random: Generates random numbers or selects random items (used for randomization or dummy data generation)
+# import random
